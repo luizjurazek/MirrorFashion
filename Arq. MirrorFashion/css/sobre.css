@@ -1,0 +1,162 @@
+header{
+    position: relative;
+}
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+#mirror-fashion {
+    padding: 10px;
+    background-image: url(../resources/img/sobre-background.jpg);
+}
+#historia {
+    border-bottom: 1px solid #333333;
+}
+#diferenciais {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#centro-distribuicao {
+    text-align: center;
+    background-color: #e2e1e1a9;
+    border: 1px solid #ccc;
+    padding: 15px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#fotofamilia {
+    float: right;
+    margin: 0 0 10px 10x;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#diferenciais {
+    margin-top: 40px;
+    margin-right: 15px;
+}
+
+
+p {
+    padding: 0 45px;
+    text-indent: 15px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+    font-size: 15px;
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    
+    color: #003366;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+.sacola {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-image: url(../resources/img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    padding-top: 8px;
+}
+
+footer .container {
+    position: relative;
+}
+
+footer {
+    clear: both;
+}
+
+footer {
+    height: 65px;
+    padding: 20px 0;
+}
+
+footer {
+    background-image: url(../resources/img/fundo-rodape.png);
+}
+
+.social {
+    margin: 15px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.social a[href*="facebook.com"] {
+    background-image: url(../resources/img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../resources/img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../resources/img/googleplus.png);
+}
+ 
+
+.logomirror{
+    margin: 15px;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
+h1 + p {
+    text-indent: 0;
+}
+
+:not(p) + p::first-line {
+    font-variant: small-caps;
+}
+
+
